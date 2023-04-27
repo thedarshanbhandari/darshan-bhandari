@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="font-awesome.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<!--------------------------- Page Loader start ------------------------------->
+<div class="page-loader">
+  <div class="page-loader-inner">
+    <div class="circle"></div>
+    Loading...
+  </div>
+</div>
+<!--------------------------- Page Loader End ------------------------------->
+
+
+<!--------------------------- Bg animation start ------------------------------->
+<div class="bg-anim-eff">
+</div>
+<!--------------------------- Bg animation end ------------------------------->
+
+
+<!--------------------------- Overlay effect Start ------------------------------->
+<div class="overlay-effect">
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+  <div class="overlay-effect-item"></div>
+</div>
+<!--------------------------- Overlay effect End ------------------------------->
+
+
+<!--------------------------- Header Start ------------------------------->
+<header class="header">
+<div class="container">
+  <div class="row flex-end">
+    <button type="button" class="nav-toggler">
+      <span></span>
+    </button>
+    <!------- nav ------->
+    <nav class="nav">
+      <div class="nav-inner">
+        <ul>
+          <li><a href="#about" class="nav-item link-item">about me</a></li>
+          <li><a href="#portfolio" class="nav-item link-item">portfolio</a></li>
+          <li><a href="#contact" class="nav-item link-item">contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
+</header>
+<!--------------------------- Header End ------------------------------->
+
+
+<!--------------------------- About section start ------------------------------->
+<section class="about-section active" id="about">
+  <div class="container">
+    <div class="row min-vh-100">
+      <div class="about-content">
+        <img src="img/mypic.png" alt="">
+        <h1>Hi, I'm Darshan Bhandari</h1>
+        <p>I'm a <span>Frontend developer</span> & <span>UI designer.</span> I make web applications
+        using <span>HTML</span>, <span>CSS</span>, <span>JAVASCRIPT</span> & <span>Figma</span>. 
+        Check out my latest work on the <a href="#portfolio" class="link-item">Portfolio page</a>. Want to talk about a project?
+       You can get in touch with me <a href="#contact" class="link-item">Here</a>.</p>
+       <h2>Skills</h2>
+       <div class="skills">
+        <div class="skill-item">html</div>
+        <div class="skill-item">css</div>
+        <div class="skill-item">javascript</div>
+        <div class="skill-item">figma</div>
+        <div class="skill-item">python</div>
+        <div class="skill-item">MySQL</div>
+      </div>
+      <button type="button" class="btn cv"><a download="" href="Darshan_Bhandari_CV.pdf">download CV</a></button>
+      </div>
+    </div>
+  </div>
+</section>
+<!--------------------------- About section end ------------------------------->
+
+<!--------------------------- Portfolio section start ------------------------------->
+
+<section class="portfolio-section sec-padding" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>recent works</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="portfolio-filter">
+        <button type="button" class="portfolio-filter-btn active"
+        title="Show all works" data-filter="all">all</button>
+        <button type="button" class="portfolio-filter-btn" 
+        title="Filter by front-end" data-filter="front-end">front-end</button>
+        <button type="button" class="portfolio-filter-btn" 
+        title="Filter by design" data-filter="design">design</button>
+      </div>
+      <div class="filter-status">
+        <p></p>
+      </div>
+    </div>
+    <div class="row portfolio-items">
+      <!----- Portfolio item start ------>
+      <div class="portfolio-item" data-category="front-end">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/11.png" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">E-commerce website</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Consequatur quo fuga nemo natus eligendi ut culpa quaerat 
+              animi, voluptate dignissimos fugit. Dolore repellendus alias 
+              commodi. Hic tempora placeat dolorum quaerat nobis cupiditate 
+              eos eaque maiores doloremque? Ullam rerum, corrupti mollitia
+               consequatur at aliquam perspiciatis? Ea tempora voluptate maiores voluptas ipsam.</p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>4 Dec 2021</span></p>
+            <p>Technologies Used - <span>Html, Css, JS</span></p>
+            <p>Role - <span>Front-End</span></p>
+            <p>Check Project - <span><a href="https://developerdarshan.github.io/jupiter-online-shopping/" target="_blank">Click Here</a></span></p>
+          </div>
+        </div>
+      </div>
+      <!----- Portfolio item end ------>
+
+      <!----- Portfolio item start ------>
+      <div class="portfolio-item" data-category="front-end">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/22.png" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">personal portfolio website</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Consequatur quo fuga nemo natus eligendi ut culpa quaerat 
+              animi, voluptate dignissimos fugit. Dolore repellendus alias 
+              commodi. Hic tempora placeat dolorum quaerat nobis cupiditate 
+              eos eaque maiores doloremque? Ullam rerum, corrupti mollitia
+               consequatur at aliquam perspiciatis? Ea tempora voluptate maiores voluptas ipsam.</p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>4 Dec 2021</span></p>
+            <p>Technologies Used - <span>Html, Css, javascript</span></p>
+            <p>Role - <span>Front-End</span></p>
+            <p>Check Project - <span><a href="#" target="_blank"></a></span></p>
+          </div>
+        </div>
+      </div>
+      <!----- Portfolio item end ------>
+
+      <!----- Portfolio item start ------>
+      <div class="portfolio-item" data-category="front-end">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/33.png" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">NFTSPACE</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Consequatur quo fuga nemo natus eligendi ut culpa quaerat 
+              animi, voluptate dignissimos fugit. Dolore repellendus alias 
+              commodi. Hic tempora placeat dolorum quaerat nobis cupiditate 
+              eos eaque maiores doloremque? Ullam rerum, corrupti mollitia
+               consequatur at aliquam perspiciatis? Ea tempora voluptate maiores voluptas ipsam.</p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>4 Dec 2021</span></p>
+            <p>Technologies Used - <span>Html, Css, JS</span></p>
+            <p>Role - <span>Front-End</span></p>
+            <p>Check Project - <span><a href="https://developerdarshan.github.io/nftspace/" target="_blank">Click Here</a></span></p>
+          </div>
+        </div>
+      </div>
+      <!----- Portfolio item end ------>
+
+      <!----- Portfolio item start ------>
+      <div class="portfolio-item" data-category="front-end">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/44.png" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">Swirl - IT Agency</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Consequatur quo fuga nemo natus eligendi ut culpa quaerat 
+              animi, voluptate dignissimos fugit. Dolore repellendus alias 
+              commodi. Hic tempora placeat dolorum quaerat nobis cupiditate 
+              eos eaque maiores doloremque? Ullam rerum, corrupti mollitia
+               consequatur at aliquam perspiciatis? Ea tempora voluptate maiores voluptas ipsam.</p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>4 Dec 2021</span></p>
+            <p>Technologies Used - <span>Html, Css, JS</span></p>
+            <p>Role - <span>Front-End</span></p>
+            <p>Check Project - <span><a href="https://developerdarshan.github.io/swirl/" target="_blank">Click Here</a></span></p>
+          </div>
+        </div>
+      </div>
+      <!----- Portfolio item end ------>
+
+      <!----- Portfolio item start ------>
+      <div class="portfolio-item" data-category="front-end">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/55.png" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">Palindrome Checker</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Consequatur quo fuga nemo natus eligendi ut culpa quaerat 
+              animi, voluptate dignissimos fugit. Dolore repellendus alias 
+              commodi. Hic tempora placeat dolorum quaerat nobis cupiditate 
+              eos eaque maiores doloremque? Ullam rerum, corrupti mollitia
+               consequatur at aliquam perspiciatis? Ea tempora voluptate maiores voluptas ipsam.</p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>4 Dec 2021</span></p>
+            <p>Technologies Used - <span>Html, Css, JS</span></p>
+            <p>Role - <span>Front-End</span></p>
+            <p>Check Project - <span><a href="https://developerdarshan.github.io/palindrome-checker/" target="_blank">Click Here</a></span></p>
+          </div>
+        </div>
+      </div>
+      <!----- Portfolio item end ------>
+
+      <!----- Portfolio item start ------>
+      <div class="portfolio-item" data-category="design">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/66.png" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">Movie website landing page</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Consequatur quo fuga nemo natus eligendi ut culpa quaerat 
+              animi, voluptate dignissimos fugit. Dolore repellendus alias 
+              commodi. Hic tempora placeat dolorum quaerat nobis cupiditate 
+              eos eaque maiores doloremque? Ullam rerum, corrupti mollitia
+               consequatur at aliquam perspiciatis? Ea tempora voluptate maiores voluptas ipsam.</p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>4 Dec 2021</span></p>
+            <p>Technologies Used - <span>Figma</span></p>
+            <p>Role - <span>Front-End</span></p>
+            <p>Check Project - <span><a href="#" target="_blank"></a></span></p>
+          </div>
+        </div>
+      </div>
+      <!----- Portfolio item end ------>
+
+      <!----- Portfolio item start ------>
+      <div class="portfolio-item" data-category="design">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/77.png" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">Headphone Landing Page</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Consequatur quo fuga nemo natus eligendi ut culpa quaerat 
+              animi, voluptate dignissimos fugit. Dolore repellendus alias 
+              commodi. Hic tempora placeat dolorum quaerat nobis cupiditate 
+              eos eaque maiores doloremque? Ullam rerum, corrupti mollitia
+               consequatur at aliquam perspiciatis? Ea tempora voluptate maiores voluptas ipsam.</p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>4 Dec 2021</span></p>
+            <p>Technologies Used - <span>Figma</span></p>
+            <p>Role - <span>Front-End</span></p>
+            <p>Check Project - <span><a href="#" target="_blank">www.domain.com</a></span></p>
+          </div>
+        </div>
+      </div>
+  
+      <!---------------------------  Portfolio item end ------------------------------->
+
+      <!----- Portfolio item start ------>
+      <div class="portfolio-item" data-category="design">
+        <div class="portfolio-item-thumbnail">
+          <img src="img/portfolio/8.png" alt="thumbnail">
+          <button type="button" class="btn more-info-btn">more info</button>
+        </div>
+        <h3 class="portfolio-item-title">Cab booking website</h3>
+        <div class="portfolio-item-details">
+          <div class="description">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Consequatur quo fuga nemo natus eligendi ut culpa quaerat 
+              animi, voluptate dignissimos fugit. Dolore repellendus alias 
+              commodi. Hic tempora placeat dolorum quaerat nobis cupiditate 
+              eos eaque maiores doloremque? Ullam rerum, corrupti mollitia
+               consequatur at aliquam perspiciatis? Ea tempora voluptate maiores voluptas ipsam.</p>
+          </div>
+          <div class="general-info">
+            <p>Created - <span>4 Dec 2021</span></p>
+            <p>Technologies Used - <span>Figma</span></p>
+            <p>Role - <span>Front-End</span></p>
+            <p>Check Project - <span><a href=" https://www.figma.com/proto/J4FJqy78fi01xgpb9Bzjl4/FLASHCAB?page-id=0%3A1&node-id=331%3A84&scaling=min-zoom" target="_blank">Click Here</a></span></p>
+          </div>
+        </div>
+      </div>
+  
+      <!---------------------------  Portfolio item end ------------------------------->
+    </div>
+  </div>
+</section>
+
+<!--------------------------- Portfolio section end ------------------------------->
+
+
+<!--------------------------- Contact Section Start ------------------------------->
+<section class="contact-section sec-padding min-vh-100" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>let's talk 👋🏻</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="contact-content">
+        <div class="contact-text">
+          <p>Lorem ipsum dolor sit
+             amet consectetur adipisicing elit. 
+             Nulla quos veritatis minima quidem, 
+             doloremque totam.</p>
+        </div>
+        <div class="contact-info-item">
+          <p>Drop a message on <span id="gmail">darshanbhandari590@gmail.com</span></p>
+        </div>
+        <div class="contact-info-item">
+          <p class="social-links">
+            <span>Find me on</span>
+            <a href="https://www.linkedin.com/in/darshan-bhandari-128793241" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/Darshan590?t=r4OxqtqAfKv3SJTe0MiLXg&s=08" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://github.com/DeveloperDarshan" target="_blank"><i class="fab fa-github"></i></a>
+          </p>
+        </div>
+        <button type="button" class="btn toggle-contact-form-btn">Send Message</button>
+      </div>
+      <!-- Contact Form Start -->
+      <div class="contact-form">
+        <div class="contact-form-inner">
+          <div class="contact-form-container">
+            <button type="button" class="close-btn toggle-contact-form-btn"></button>
+            <form>
+              <div class="row">
+                <div class="input-group">
+                  <input type="text" placeholder="Your Name" class="input-control">
+                </div>
+                <div class="input-group">
+                  <input type="text" placeholder="Your Email" class="input-control">
+                </div>
+                <div class="input-group">
+                  <input type="text" placeholder="Subject" class="input-control">
+                </div>
+                <div class="input-group">
+                  <textarea placeholder="Your Message" class="input-control"></textarea>
+                </div>
+                <div class="input-group">
+                  <button class="btn btn-submit">Send</button>
+                </div>
+                <h2></h2>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Contact Form End -->
+    </div>
+  </div>
+</section>
+<!--------------------------- Contact Section End ------------------------------->
+
+<!--------------------------- Portfolio Item Details PopUp Start ------------------------------->
+
+<div class="portfolio-popup">
+  <div class="pp-overlay"></div>
+  <div class="pp-inner">
+    <div class="pp-content">
+      <div class="pp-header">
+        <h2 class="pp-counter">
+        </h2>
+        <button type="button" title="close" class="close-btn pp-close-btn"></button>
+        <div class="pp-thumbnail">
+          <img src="img/portfolio/77.png" alt="" width="850px">
+        </div>
+        <h3></h3>
+      </div>
+      <div class="pp-body">
+      </div>
+      <div class="pp-footer">
+        <div class="pp-footer-left hidden">
+          <button type="button" title="Previous Work" class="btn pp-prev-btn">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <h3></h3>
+          <img src="img/portfolio/11.png" alt="prev work thumbnail">
+        </div>
+        <div class="pp-footer-right hidden">
+          <button type="button" title="Next Work" class="btn pp-next-btn">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+          <h3></h3>
+          <img src="img/portfolio/22.png" alt="next work thumbnail">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--------------------------- Portfolio Item Details PopUp End ------------------------------->
+
+
+<script src="script.js"></script>
+</body>
+</html>
